@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby Consulting</title>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: rgba(30, 30, 30, 0.9);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+    }
+    header h1 {
+      color: #e0115f;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #e0115f;
+    }
+    .hero {
+      background: url('city-digital-bg.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .hero h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .hero button {
+      background-color: #e0115f;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .service-card {
+      flex: 1 1 300px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 25px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .service-card h3 {
+      color: #e0115f;
+    }
+    .clients {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      align-items: center;
+    }
+    .contact {
+      background-color: #f9f9f9;
+      padding: 60px 40px;
+    }
+    .contact form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    button.submit {
+      background-color: #e0115f;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RUBY CONSULTING</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Empowering Your Business Through Innovation & Optimization</h2>
+    <p>Transforming your services for the digital age.</p>
+    <button>Discover Our Services</button>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Digital Transformation Consulting</h3>
+        <p>Driving technology-led change and modernization.</p>
+      </div>
+      <div class="service-card">
+        <h3>Business Analysis</h3>
+        <p>Insightful analysis and strategic solutions.</p>
+      </div>
+      <div class="service-card">
+        <h3>Process Optimization</h3>
+        <p>Streamlining and improving workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <h2>Our Clients</h2>
+    <p>Proud to work with industry leaders.</p>
+    <div class="clients">
+      <div>NEDBANK</div>
+      <div>OM BANK</div>
+      <div>INVESTEC</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at: <strong>infor@rubycorp.co.za</strong></p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2026 Ruby Consulting. All rights reserved.
+  </footer>
+</body>
+</html>
+
